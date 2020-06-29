@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_note_24"
+                android:title="Notes" />
+            <item
+                android:id="@+id/add_notes"
+                android:icon="@drawable/ic_note_add_24"
+                android:title="Add Notes" />
+            <item
+                android:id="@+id/sync_user"
+                android:icon="@drawable/ic_sync_24"
+                android:title="Sync User" />
+        </menu>
+    </item>
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/share_it"
+                android:icon="@drawable/ic_share_24"
+                android:title="Share it" />
+            <item
+                android:id="@+id/developer"
+                android:icon="@drawable/ic_person_24"
+                android:title="Developer Page" />
+        </menu>
+    </item>
+    <item android:title="LogOut">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log-Out" />
+        </menu>
+    </item>
+
+</menu>
